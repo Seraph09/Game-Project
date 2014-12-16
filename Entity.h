@@ -11,6 +11,8 @@ public:
 	};
 	Entity();
 	Entity(string newName, int baseHp, int baseMp);
+	string getName();
+	void setName(string newName);
 private:
 	//	Need set/get functions for all values
 	string name;
